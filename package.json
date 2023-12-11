@@ -4,7 +4,7 @@
   "description": "Welcome to the **[TAMS-v3](https://github.com/MasterZeeno/TAMS-v3)** repository, where we present a comprehensive **UX/UI redesign** for **Hilmarc's Construction Corporation's Time and Attendance Management System (TAMS).** This project aims to enhance user experience, streamline workflows, and provide a modern and intuitive interface for efficient time and attendance management. For reference, please check **[HCC TAMSv2](https://hcc-tams.com.ph).**",
   "main": "index.js",
   "scripts": {
-    "start": "node loginScript.js"
+    "start": "node saveLogs.js"
   },
   "keywords": [],
   "author": "",
