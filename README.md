@@ -55,7 +55,7 @@ npm start
 
 ## License
 
-This project is licensed under the **MIT License**. Feel free to use, modify, and distribute the code.
+This project is licensed under the **[MIT license](https://github.com/MasterZeeno/TAMS-v3/blob/main/LICENSE)**. Feel free to use, modify, and distribute the code.
 
 
 ##
