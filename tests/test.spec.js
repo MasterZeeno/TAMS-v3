@@ -78,6 +78,6 @@ test("login", async ({ page }) => {
     texts.push({ [batchNum]: cleantexts });
   }
   console.table(JSON.stringify(texts));
-  await page.waitForTimeout(500);
+  await page.waitForTimeout(3000);
   await page.close();
 });
