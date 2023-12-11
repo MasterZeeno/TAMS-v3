@@ -3,7 +3,7 @@ require('dotenv').config(); // Load environment variables from .env file
 
 const USERNAME = process.env.USERNAME;
 const PASSWORD = process.env.PASSWORD;
-const TAMS_WEBSITE = process.env.TAMS_WEBSITE;
+const TAMS_WEBSITE = "https://hcc-tams.com.ph/";
 
 (async () => {
   // Launch the browser
@@ -23,12 +23,14 @@ const TAMS_WEBSITE = process.env.TAMS_WEBSITE;
     await page.waitForSelector('input[type="password"][name="password"]');
     await page.fill('input[type="password"][name="password"]', PASSWORD);
 
-    await page.waitForSelector('button[type="submit"]');
-    await page.click('button[type="submit"]');
+    await Promise.all([
+      page.waitForNavigation(), // Wait for navigation after clicking the submit button
+      page.click('button[type="submit"]'),
+    ]);
 
     // Wait for login to complete (adjust the selector as needed)
-    await page.waitForSelector('input[type="text"][name="employee_id"]');
-    const loggedInUser = await page.$eval('input[type="text"][name="employee_id"]', (el) => el.value);
+    await page.waitForSelector('#employee_id');
+    const loggedInUser = await page.$eval('#employee_id', (el) => el.value);
     
     // Assert that the logged-in user matches the provided username
     expect(loggedInUser).toBe(USERNAME);
