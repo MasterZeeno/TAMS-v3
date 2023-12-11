@@ -28,12 +28,10 @@ test("login", async ({ page }) => {
           .toString()
           .replace(/(\r\n|\n|\r|\t|\n\t|\t\t|\s\s)/gm, "")
           .trim();
-        if (new_col !== "") {
-          const header = String(headers[cntr]);
-          cntr++;
-          const data_content = { [header]: new_col };
-          data.push(data_content);
-        }
+        const header = String(headers[cntr]);
+        cntr++;
+        const data_content = { [header]: new_col };
+        data.push(data_content);
       }
     }
     data.pop();
