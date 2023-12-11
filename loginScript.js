@@ -3,6 +3,7 @@ require('dotenv').config(); // Load environment variables from .env file
 
 const USERNAME = process.env.USERNAME;
 const PASSWORD = process.env.PASSWORD;
+const TAMS_WEBSITE = process.env.TAMS_WEBSITE;
 
 (async () => {
   // Launch the browser
@@ -11,26 +12,33 @@ const PASSWORD = process.env.PASSWORD;
   // Create a new page
   const page = await browser.newPage();
 
-  // Navigate to the website
-  await page.goto('https://hcc-tams.com.ph/');
+  try {
+    // Navigate to the website
+    await page.goto(TAMS_WEBSITE);
 
-  // Click on the login button or any element that leads to the login page
-  await page.click('your-login-button-selector');
+    // Wait for the login page to load
+    await page.waitForSelector('input[type="text"][name="username"]');
+    await page.fill('input[type="text"][name="username"]', USERNAME);
 
-  // Wait for the login page to load
-  await page.waitForSelector('your-username-input-selector');
+    await page.waitForSelector('input[type="password"][name="password"]');
+    await page.fill('input[type="password"][name="password"]', PASSWORD);
 
-  // Fill in the credentials and submit the form
-  await page.fill('your-username-input-selector', USERNAME);
-  await page.fill('your-password-input-selector', PASSWORD);
-  await page.click('your-login-submit-button-selector');
+    await page.waitForSelector('button[type="submit"]');
+    await page.click('button[type="submit"]');
 
-  // Wait for login to complete (adjust the selector as needed)
-  await page.waitForSelector('your-logged-in-element-selector');
+    // Wait for login to complete (adjust the selector as needed)
+    await page.waitForSelector('input[type="text"][name="employee_id"]');
+    const loggedInUser = await page.$eval('input[type="text"][name="employee_id"]', (el) => el.value);
+    
+    // Assert that the logged-in user matches the provided username
+    expect(loggedInUser).toBe(USERNAME);
 
-  // Take a screenshot or perform additional actions if needed
-  await page.screenshot({ path: 'login-screenshot.png' });
-
-  // Close the browser
-  await browser.close();
+    // Take a screenshot or perform additional actions if needed
+    await page.screenshot({ path: './screenshots/login-screenshot.png' });
+  } catch (error) {
+    console.error('Error during login:', error);
+  } finally {
+    // Close the browser
+    await browser.close();
+  }
 })();
