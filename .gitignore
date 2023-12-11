@@ -4,11 +4,8 @@
 node_modules/
 npm-debug.log
 /test-results/
-/playwright-report/
 /playwright/.cache/
 /test-results/
-/playwright-report/
-/playwright/.cache/
 
 # .env file
 .env
