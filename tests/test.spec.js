@@ -1,11 +1,13 @@
 // @ts-check
 import { expect, test } from "@playwright/test";
+import dotenv from "dotenv";
+dotenv.config();
 
 test("login", async ({ page }) => {
-  await page.goto("https://hcc-tams.com.ph/tams/", {
+  await page.goto(String(process.env.BASE_URL), {
     waitUntil: "domcontentloaded",
   });
-  await expect(page.locator('#lastname')).toBeVisible( {timeout: 60000} )
+  await expect(page.locator("#lastname")).toBeVisible({ timeout: 60000 });
   const headers = (await page.locator("table thead tr").allTextContents())
     .map((e) => e.split("\t"))
     .flat()
@@ -64,8 +66,8 @@ test("login", async ({ page }) => {
             (Number(timee[0]) * 1 > 1 ? "s" : "") +
             (Number(timee[1]) * 1 > 0
               ? Number(timee[1]) * 1 +
-              " minute" +
-              (Number(timee[1]) * 1 > 1 ? "s" : "")
+                " minute" +
+                (Number(timee[1]) * 1 > 1 ? "s" : "")
               : "")
           ).toString();
         }
