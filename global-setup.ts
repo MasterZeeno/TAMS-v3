@@ -1,4 +1,5 @@
 import { Browser, Page, firefox, expect } from "@playwright/test"
+import fs from "fs"
 import dotenv from "dotenv"
 dotenv.config()
 
@@ -11,6 +12,10 @@ async function globalSetup() {
   await page.getByPlaceholder(/password/i).fill(String(process.env.PASSWORD))
   await page.getByRole("button", { name: /sign in/i }).click()
   await expect(page.locator("#lastname")).toBeVisible()
+  fs.mkdirSync("./.auth", { recursive: true })
+  if (!fs.existsSync("./.auth/admin.json")) {
+    fs.writeFileSync("./.auth/admin.json", "")
+  }
   await page.context().storageState({ path: "./.auth/admin.json" })
   // await browser.close()
 }

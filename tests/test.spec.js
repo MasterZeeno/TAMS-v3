@@ -40,7 +40,7 @@ test("login", async ({ page }) => {
     row_data.push({ [row_header]: data });
   }
   const outputArray = JSON.stringify(row_data, null, 2);
-  const outputFile = "./output.json";
+  const outputFile = ".test-results/output.json";
   fs.writeFileSync(outputFile, outputArray);
   await page.waitForTimeout(3000);
 });
