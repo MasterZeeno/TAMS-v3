@@ -2,20 +2,20 @@
   "cookies": [
     {
       "name": "ci_session",
-      "value": "239a2b4oqujmln2plm2bhm1gq32e063v",
+      "value": "o7ivqpfegaplhn3q53d395q8bjqidn3q",
       "domain": "hcc-tams.com.ph",
       "path": "/",
-      "expires": 1702282491.695987,
+      "expires": 1702283333.804363,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "csrf_tams_cookie",
-      "value": "c4e5054e09f0dabe06f1838af25c1d92",
+      "value": "1de72a9630e333a8cb47d0eb0040ee64",
       "domain": "hcc-tams.com.ph",
       "path": "/",
-      "expires": 1702287896.572556,
+      "expires": 1702288735.841532,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
