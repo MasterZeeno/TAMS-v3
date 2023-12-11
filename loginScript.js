@@ -1,5 +1,5 @@
-const { chromium } = require('playwright');
-require('dotenv').config(); // Load environment variables from .env file
+const { chromium } = require("playwright");
+require("dotenv").config(); // Load environment variables from .env file
 
 const USERNAME = process.env.USERNAME;
 const PASSWORD = process.env.PASSWORD;
@@ -24,21 +24,24 @@ const TAMS_WEBSITE = "https://hcc-tams.com.ph/";
     await page.fill('input[type="password"][name="password"]', PASSWORD);
 
     await Promise.all([
-      page.waitForNavigation(), // Wait for navigation after clicking the submit button
+      page.waitForNavigation({ waitUntil: "domcontentloaded" }), // Wait for navigation after clicking the submit button
       page.click('button[type="submit"]'),
     ]);
 
-    // Wait for login to complete (adjust the selector as needed)
-    await page.waitForSelector('#employee_id');
-    const loggedInUser = await page.$eval('#employee_id', (el) => el.value);
-    
+    // Wait for the login to complete (adjust the selector as needed)
+    await page.waitForSelector('input[type="text"][name="employee_id"]');
+    const loggedInUser = await page.$eval(
+      'input[type="text"][name="employee_id"]',
+      (el) => el.value
+    );
+
     // Assert that the logged-in user matches the provided username
     expect(loggedInUser).toBe(USERNAME);
 
     // Take a screenshot or perform additional actions if needed
-    await page.screenshot({ path: './screenshots/login-screenshot.png' });
+    await page.screenshot({ path: "./screenshots/login-screenshot.png" });
   } catch (error) {
-    console.error('Error during login:', error);
+    console.error("Error during login:", error);
   } finally {
     // Close the browser
     await browser.close();
