@@ -32,7 +32,7 @@ export default defineConfig({
     // baseURL: 'https://hcc-tams.com.ph/tams',
     baseURL: process.env.BASE_URL,
     actionTimeout: 0,
-    headless: false,
+    headless: true,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     storageState: fs.existsSync('./.auth/admin.json') ? './.auth/admin.json' : undefined,
