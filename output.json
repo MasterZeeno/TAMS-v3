@@ -1,0 +1,3642 @@
+[
+  {
+    "Row 1": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 2": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 3": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 4": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 5": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 6": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 7": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 8": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 9": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  },
+  {
+    "Row 10": [
+      {
+        "OT ID": "344201"
+      },
+      {
+        "Date Filed": "2023-12-10T11:53:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      },
+      {
+        "OT ID": "344200"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T12:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "8 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "7 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344199"
+      },
+      {
+        "Date Filed": "2023-12-10T11:52:00.000Z"
+      },
+      {
+        "Date From": "2023-12-09T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-09T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344198"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-08T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-08T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": "Error"
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Cancelled"
+      },
+      {
+        "OT ID": "344197"
+      },
+      {
+        "Date Filed": "2023-12-10T11:51:00.000Z"
+      },
+      {
+        "Date From": "2023-12-05T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-05T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344195"
+      },
+      {
+        "Date Filed": "2023-12-10T11:50:00.000Z"
+      },
+      {
+        "Date From": "2023-12-04T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-10T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "150 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "149 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344194"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-03T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-03T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344191"
+      },
+      {
+        "Date Filed": "2023-12-10T11:49:00.000Z"
+      },
+      {
+        "Date From": "2023-12-02T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-02T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Pending Level 1 Approval"
+      },
+      {
+        "OT ID": "344190"
+      },
+      {
+        "Date Filed": "2023-12-10T11:48:00.000Z"
+      },
+      {
+        "Date From": "2023-12-07T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-07T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Approved"
+      },
+      {
+        "OT ID": "344188"
+      },
+      {
+        "Date Filed": "2023-12-10T11:46:00.000Z"
+      },
+      {
+        "Date From": "2023-12-01T16:00:00.000Z"
+      },
+      {
+        "Date To": "2023-12-01T22:00:00.000Z"
+      },
+      {
+        "Filed Duration(hr:min)": "6 hours"
+      },
+      {
+        "Valid Duration(hr:min)": "5 hours"
+      },
+      {
+        "Purpose": "Document prep and EHS health-related files management. On-site Standby Nurse."
+      },
+      {
+        "Remarks": ""
+      },
+      {
+        "Attachment": ""
+      },
+      {
+        "Level 1 Approver": "JONATHAN DUMLAO"
+      },
+      {
+        "Level 2 Approver": "JOSE FUNDALES III"
+      },
+      {
+        "Status": "Disapproved"
+      }
+    ]
+  }
+]

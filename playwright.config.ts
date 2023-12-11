@@ -14,7 +14,7 @@ dotenv.config()
  */
 export default defineConfig({
   globalSetup: "./global-setup",
-  testDir: './e2e',
+  testDir: './tests',
   timeout: 60000,
   /* Run tests in files in parallel */
   fullyParallel: true,

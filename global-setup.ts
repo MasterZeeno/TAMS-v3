@@ -12,7 +12,7 @@ async function globalSetup() {
   await page.getByRole("button", { name: /sign in/i }).click()
   await expect(page.locator("#lastname")).toBeVisible()
   await page.context().storageState({ path: "./.auth/admin.json" })
-  await browser.close()
+  // await browser.close()
 }
 
 export default globalSetup

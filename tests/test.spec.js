@@ -1,31 +1,46 @@
 // @ts-check
 import { expect, test } from "@playwright/test";
 import dotenv from "dotenv";
+import fs from "fs";
 dotenv.config();
 
 test("login", async ({ page }) => {
-  await page.goto(String(process.env.BASE_URL), {
-    waitUntil: "domcontentloaded",
-  });
-  await expect(page.locator("#lastname")).toBeVisible({ timeout: 60000 });
-  const headers = (await page.locator("table thead tr").allTextContents())
-    .map((e) => e.split("\t"))
-    .flat()
-    .map((e) => e.split("\n"))
-    .map((e) => {
-      const indi = e.toString();
-      const indOf = indi.indexOf(",");
-      if (indOf > -1) {
-        return indi.substring(0, indOf).trim();
-      }
-      return e;
-    });
+  await page.goto("/tams/App");
+  // Click the get started link.
+  await page.locator("li#menu_ot a").click();
+  // Expects page to have a heading with the name of Installation.
+  await expect(page.locator("li a span.hidden-xs")).toBeVisible();
 
+  // const topper = await page.locator("table thead tr").all()
+  const headers = [];
+
+  // topper.forEach(e => {
+  //   headers.push(e.locator("th").allTextContents())
+  // });
+
+  for (const head of await page.locator("table thead tr th").all())
+    headers.push(await head.textContent());
+
+  // .map((e) => e.split("\t"))
+  // .flat()
+  // .map((e) => e.split("\n")).flat()
+  // .filter(e=>e!=="")
+  // .map((e) => {
+  //   const indi = e.toString().trim();
+  //   const indOf = indi.indexOf(",");
+  //   if (indOf > -1) {
+  //     const finalIndi = indi.substring(0, indOf).trim();
+  //     return finalIndi + ", ";
+  //   }
+  //   return indi;
+  // });
+
+  headers.pop();
   const texts = [];
   const cleantexts = [];
-  var counter = 1;
+  var counter = 0;
 
-  // const pagination = await page.locator("ul.pagination li a").last()
+  const pagination = await page.locator("ul.pagination li a").last();
 
   for (const row of await page.locator("table tbody tr").all()) {
     const tdtexts = await row.locator("td").allTextContents();
@@ -72,14 +87,18 @@ test("login", async ({ page }) => {
           ).toString();
         }
       }
-      const header = headers[index].toString();
-      cleantexts.push({ [header]: val2 });
+      const header = String(headers[index]);
+      if (header!=="undefined") {
+        cleantexts.push({ [header]: val2 });
+      }
     });
     counter++;
     const batchNum = "Row " + counter;
     texts.push({ [batchNum]: cleantexts });
   }
-  console.table(JSON.stringify(texts));
+  console.table(JSON.stringify(texts, null, 2));
+  const outputArray = JSON.stringify(texts, null, 2);
+  const outputFile = "./output.json";
+  fs.writeFileSync(outputFile, outputArray);
   await page.waitForTimeout(3000);
-  await page.close();
 });
