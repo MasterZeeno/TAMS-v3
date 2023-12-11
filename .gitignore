@@ -400,3 +400,13 @@ FodyWeavers.xsd
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# .gitignore
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# .env file
+.env
+
