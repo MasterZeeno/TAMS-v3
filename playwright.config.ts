@@ -1,7 +1,7 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from "@playwright/test";
 import dotenv from "dotenv";
-import fs from 'fs';
-dotenv.config()
+import fs from "fs";
+dotenv.config();
 
 /**
  * Read environment variables from file.
@@ -14,8 +14,11 @@ dotenv.config()
  */
 export default defineConfig({
   globalSetup: "./global-setup",
-  testDir: './tests',
-  timeout: 60000,
+  testDir: "./tests",
+  globalTimeout: process.env.CI ? 60 * 60 * 1000 : undefined,
+  expect: {
+    timeout: 10 * 1000,
+  },
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -33,8 +36,10 @@ export default defineConfig({
     actionTimeout: 0,
     headless: true,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
-    storageState: fs.existsSync('./.auth/admin.json') ? './.auth/admin.json' : undefined,
+    trace: "on-first-retry",
+    storageState: fs.existsSync("./.auth/admin.json")
+      ? "./.auth/admin.json"
+      : undefined,
   },
 
   /* Configure projects for major browsers */
@@ -47,8 +52,8 @@ export default defineConfig({
     // },
 
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      name: "firefox",
+      use: { ...devices["Desktop Firefox"] },
     },
 
     // {
