@@ -5,11 +5,15 @@ import fs from "fs";
 dotenv.config();
 
 test("login", async ({ page }) => {
-  await page.goto("/tams/App");
-  await page.locator("li#menu_ot a").click();
-  await expect(page.locator("li a span.hidden-xs")).toBeVisible();
+  // await page.goto("/tams/App")
+  // await page.locator("li#menu_ot a").click()
+  await page.goto("/tams/filing/overtime");
+  // await expect(page.locator("paginate_button next")).toBeVisible()
   await expect(page.locator("table")).toBeVisible();
   const headers = [];
+  console.log(
+    Number(await page.locator("li.paginate_button a").last().textContent())
+  );
   for (const head of await page.locator("table thead tr th").all())
     headers.push(await head.textContent());
   headers.pop();
@@ -40,7 +44,7 @@ test("login", async ({ page }) => {
     row_data.push({ [row_header]: data });
   }
   const outputArray = JSON.stringify(row_data, null, 2);
-  const outputFile = ".test-results/output.json";
+  const outputFile = "./test-results/output.json";
   fs.writeFileSync(outputFile, outputArray);
   await page.waitForTimeout(3000);
 });

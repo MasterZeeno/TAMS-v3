@@ -11,7 +11,7 @@ async function globalSetup() {
   await page.getByPlaceholder(/username/i).fill(String(process.env.COMP_ID))
   await page.getByPlaceholder(/password/i).fill(String(process.env.PASSWORD))
   await page.getByRole("button", { name: /sign in/i }).click()
-  await expect(page.locator("#lastname")).toBeVisible()
+  await expect(page.locator('input[id="lastname"]')).toBeVisible()
   fs.mkdirSync("./.auth", { recursive: true })
   if (!fs.existsSync("./.auth/admin.json")) {
     fs.writeFileSync("./.auth/admin.json", "")
