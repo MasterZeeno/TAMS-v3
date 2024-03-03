@@ -5,7 +5,7 @@ dotenv.config();
 
 test("collectData", async ({ page }) => {
   const defTimeOut: number = 10 * 1000;
-  await page.goto("/filing/overtime");
+  await page.goto("https://hcc-tams.com.ph/tams/filing/overtime");
   await expect(page.locator("table")).toBeVisible({ timeout: defTimeOut });
   const headers: string[] = [];
   for (const head of await page.locator("table thead tr th").all()) {
