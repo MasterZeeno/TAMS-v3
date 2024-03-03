@@ -1,4 +1,4 @@
-import { Page, firefox, expect } from "@playwright/test";
+import { Page, chromium, expect } from "@playwright/test";
 import fs from "fs";
 import dotenv from "dotenv";
 dotenv.config();
