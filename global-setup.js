@@ -1,0 +1,34 @@
+"use strict";
+const { chromium, expect } = require("@playwright/test");
+const fs = require("fs");
+const dotenv = require("dotenv");
+
+dotenv.config();
+
+async function globalSetup() {
+  const browser = await chromium.launch();
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  await page.goto("https://hcc-tams.com.ph/tams/Auth/");
+  await page.fill('input[placeholder="Username"]', process.env.COMP_ID || "");
+  await page.fill('input[placeholder="Password"]', process.env.PASSWORD || "");
+  await page.click('button:has-text("Sign in")');
+
+  await expect(page).toHaveTitle(/profile/i);
+
+  const folderPath = "./.auth";
+  const filePath = "/admin.json";
+  const fullPath = folderPath + filePath;
+
+  fs.mkdirSync(folderPath, { recursive: true });
+  if (!fs.existsSync(fullPath)) {
+    fs.writeFileSync(fullPath, "");
+  }
+
+  await page.context().storageState({ path: fullPath });
+
+  await browser.close();
+}
+
+module.exports = globalSetup;
