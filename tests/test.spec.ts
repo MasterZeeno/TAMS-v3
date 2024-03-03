@@ -1,15 +1,10 @@
-import { chromium, Page, expect, test } from "@playwright/test";
+import { chromium, expect, test } from "@playwright/test";
 import dotenv from "dotenv";
 import fs from "fs";
 
 dotenv.config();
 
-test("collectData", async () => {
-  
-  const browser = await chromium.launch();
-  const context = await browser.newContext();
-  const page = await context.newPage();
-  
+test("collectData", async ({ page }) => {
   await page.goto("https://hcc-tams.com.ph/tams/filing/overtime/");
   await expect(page).toHaveTitle(/TAMSv2/);
   await expect(page.locator("table")).toBeVisible({ timeout: 60000 });
@@ -54,4 +49,17 @@ test("collectData", async () => {
   const outputFile = "./test-results/output.json";
   fs.writeFileSync(outputFile, outputArray);
   await page.waitForTimeout(3000);
+});
+
+// Global teardown
+test.afterEach(async ({ page }) => {
+  // Close the browser after each test
+  await page.context().close();
+});
+
+// Global setup
+test.beforeEach(async ({ browser }) => {
+  // Create a new browser context before each test
+  const context = await browser.newContext();
+  const page = await context.newPage();
 });
