@@ -22,10 +22,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Load environment variables
-        run: |
-          echo "COMP_ID=${{ secrets.COMP_ID }}" >> $GITHUB_ENV
-          echo "PASSWORD=${{ secrets.PASSWORD }}" >> $GITHUB_ENV
-
       - name: Run Playwright tests
         run: npx playwright test --project="Mobile Chrome"
