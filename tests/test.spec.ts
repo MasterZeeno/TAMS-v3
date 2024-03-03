@@ -49,5 +49,5 @@ test("collectData", async ({ page }) => {
   const outputArray = JSON.stringify(row_data, null, 2);
   const outputFile = "./test-results/output.json";
   fs.writeFileSync(outputFile, outputArray);
-  await page.waitForTimeout(3000);
+  await page.waitForTimeout(defTimeOut);
 });
