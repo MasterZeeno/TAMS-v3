@@ -63,7 +63,11 @@ export default defineConfig({
     /* Test against mobile viewports. */
     {
       name: 'Mobile Chrome',
-      use: { ...devices['Pixel 5'] },
+      use: {
+        ...devices['Pixel 5'],
+        browserName: 'chromium', // Ensure it's Chromium-based browser
+        headless: true, // or false depending on your preference
+      },
     },
     // {
     //   name: 'Mobile Safari',
