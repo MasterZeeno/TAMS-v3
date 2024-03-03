@@ -14,7 +14,7 @@ async function globalSetup() {
   const browser: Browser = await firefox.launch();
   const context = await browser.newContext();
   const page: Page = await context.newPage();
-  await page.goto(String("/Auth"));
+  await page.goto(String("https://hcc-tams.com.ph/tams/Auth"));
   await page.getByPlaceholder(/username/i).fill(String(process.env.COMP_ID));
   await page.getByPlaceholder(/password/i).fill(String(process.env.PASSWORD));
   await page.getByRole("button", { name: /sign in/i }).click();
