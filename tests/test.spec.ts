@@ -5,10 +5,9 @@ import fs from "fs";
 dotenv.config();
 
 test("collectData", async ({ page }) => {
-  const defTimeOut = 10 * 1000;
   await page.goto("https://hcc-tams.com.ph/tams/filing/overtime/");
   await expect(page).toHaveTitle(/TAMSv2/);
-  await expect(page.locator("table")).toBeVisible({ timeout: defTimeOut });
+  await expect(page.locator("table")).toBeVisible({ timeout: 60000 });
 
   const headers = [];
   for (const head of await page.locator("table thead tr th").all()) {
@@ -49,5 +48,5 @@ test("collectData", async ({ page }) => {
   const outputArray = JSON.stringify(row_data, null, 2);
   const outputFile = "./test-results/output.json";
   fs.writeFileSync(outputFile, outputArray);
-  await page.waitForTimeout(defTimeOut);
+  await page.waitForTimeout(3000);
 });
