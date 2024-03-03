@@ -5,15 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 async function globalSetup() {
-  const fldr = "./.auth";
-  const file = "/admin.json";
-  const fullStr = fldr.concat(file);
-
-  fs.mkdirSync(fldr, { recursive: true });
-  if (!fs.existsSync(fullStr)) {
-    fs.writeFileSync(fullStr, "");
-  }
-
+  
   const browser = await chromium.launch();
   const context = await browser.newContext();
   const page = await context.newPage();
@@ -23,6 +15,16 @@ async function globalSetup() {
   await page.fill('input[placeholder="Password"]', process.env.PASSWORD);
   await page.click('button:has-text("Sign in")');
   await expect(page).toHaveTitle(/profile/i);
+  
+  const fldr = "./.auth";
+  const file = "/admin.json";
+  const fullStr = fldr.concat(file);
+
+  fs.mkdirSync(fldr, { recursive: true });
+  if (!fs.existsSync(fullStr)) {
+    fs.writeFileSync(fullStr, "");
+  }
+
   await page.context().storageState({ path: fullStr });
 
   await browser.close();
