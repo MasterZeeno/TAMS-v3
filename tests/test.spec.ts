@@ -1,10 +1,15 @@
-import { expect, test } from "@playwright/test";
+import { chromium, Page, expect, test } from "@playwright/test";
 import dotenv from "dotenv";
 import fs from "fs";
 
 dotenv.config();
 
-test("collectData", async ({ page }) => {
+test("collectData", async () => {
+  
+  const browser = await chromium.launch();
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  
   await page.goto("https://hcc-tams.com.ph/tams/filing/overtime/");
   await expect(page).toHaveTitle(/TAMSv2/);
   await expect(page.locator("table")).toBeVisible({ timeout: 60000 });
