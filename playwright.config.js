@@ -1,10 +1,10 @@
 "use strict";
-const { defineConfig, devices } = require("@playwright/test");
-const dotenv = require("dotenv");
-const fs = require("fs");
-dotenv.config();
+import { defineConfig, devices } from "@playwright/test";
+import { config } from "dotenv";
+import { existsSync } from "fs";
+config();
 
-module.exports = defineConfig({
+export default defineConfig({
   globalSetup: "./global-setup",
   testDir: "./tests",
   globalTimeout: process.env.CI ? 60 * 60 * 1000 : undefined,
@@ -29,7 +29,7 @@ module.exports = defineConfig({
     headless: true,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
-    storageState: fs.existsSync("./.auth/admin.json")
+    storageState: existsSync("./.auth/admin.json")
       ? "./.auth/admin.json"
       : undefined,
   },
@@ -42,10 +42,10 @@ module.exports = defineConfig({
     //     ...devices['Desktop Chrome']
     //   },
     // },
-    // {
-    //   name: "firefox",
-    //   use: { ...devices["Desktop Firefox"] },
-    // },
+    {
+      name: "firefox",
+      use: { ...devices["Desktop Firefox"] },
+    },
 
     // {
     //   name: 'webkit',

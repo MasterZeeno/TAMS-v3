@@ -1,12 +1,12 @@
 "use strict";
-const { chromium, expect } = require("@playwright/test");
+const { firefox, expect } = require("@playwright/test");
 const fs = require("fs");
 const dotenv = require("dotenv");
 
 dotenv.config();
 
 async function globalSetup() {
-  const browser = await chromium.launch();
+  const browser = await firefox.launch();
   const context = await browser.newContext();
   const page = await context.newPage();
 
