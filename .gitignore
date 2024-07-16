@@ -5,6 +5,4 @@ node_modules/
 npm-debug.log
 /test-results/
 /playwright/.cache/
-/.auth/
-/playwright-report/
 *.bak
