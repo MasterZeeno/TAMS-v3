@@ -10,7 +10,7 @@ async function globalSetup() {
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  await page.goto("https://hcc-tams.com.ph/tams/Auth/");
+  await page.goto("https://www.hcc-tams.com.ph/tams/Auth/");
   await page.fill('input[placeholder="Username"]', process.env.COMP_ID || "");
   await page.fill('input[placeholder="Password"]', process.env.PASSWORD || "");
   await page.click('button:has-text("Sign in")');
