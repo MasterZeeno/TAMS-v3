@@ -15,8 +15,8 @@ async function globalSetup() {
     await page.goto('https://www.hcc-tams.com.ph/tams/Auth/', { timeout: 60000 });
 
     console.log("Filling in credentials...");
-    await page.fill('input[name="Username"]', process.env.COMP_ID || '15913');
-    await page.fill('input[name="Password"]', process.env.PASSWORD || '546609529');
+    await page.type('input[name="username"]', process.env.COMP_ID || '15913');
+    await page.type('input[name="password"]', process.env.PASSWORD || '546609529');
     await page.click('button:has-text("Sign in")');
 
     console.log("Waiting for profile page to load...");
