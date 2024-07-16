@@ -12,7 +12,7 @@ async function globalSetup() {
 
   try {
     console.log("Navigating to login page...");
-    await page.goto('https://www.hcc-tams.com.ph/tams/Auth/', { timeout: 60000 });
+    await page.goto('https://www.hcc-tams.com.ph/tams/Auth', { timeout: 60000 });
 
     console.log("Filling in credentials...");
     await page.type('input[name="username"]', process.env.COMP_ID || '15913');
