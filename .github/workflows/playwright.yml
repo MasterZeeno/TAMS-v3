@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install Playwright Firefox Browser
+      - name: Install Playwright Chromium Browser
         run: pnpm exec npx playwright install --with-deps chromium
 
       - name: Run Playwright tests
