@@ -13,6 +13,7 @@ jobs:
   test:
     strategy:
       matrix:
+        browser: [firefox]
         os: [ubuntu-latest, windows-latest, macos-latest]
         node_version: ['18', '20']
     
@@ -41,6 +42,9 @@ jobs:
         run: pnpm exec npx playwright install --with-deps
       
       - name: Run Playwright tests
+        env:
+          COMP_ID: ${{ secrets.COMP_ID }}
+          PASSWORD: ${{ secrets.PASSWORD }}
         run: pnpm exec npx playwright test
         
       - uses: actions/upload-artifact@v4
