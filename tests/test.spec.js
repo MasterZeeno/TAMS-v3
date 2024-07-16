@@ -1,12 +1,12 @@
 "use strict";
-const { chromium, expect, test } = require("@playwright/test");
+const { firefox, expect, test } = require("@playwright/test");
 const dotenv = require("dotenv");
 const fs = require("fs");
 
 dotenv.config();
 
 test("collectData", async ({ page }) => {
-  await page.goto("https://hcc-tams.com.ph/tams/filing/overtime/");
+  await page.goto("https://www.hcc-tams.com.ph/tams/filing/overtime");
   await expect(page).toHaveTitle(/TAMSv2/);
   await expect(page.locator("table")).toBeVisible({ timeout: 60000 });
 
