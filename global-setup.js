@@ -1,12 +1,12 @@
 "use strict";
-const { firefox, expect } = require("@playwright/test");
+const { chromium, expect } = require("@playwright/test");
 const fs = require("fs");
 const dotenv = require("dotenv");
 
 dotenv.config();
 
 async function globalSetup() {
-  const browser = await firefox.launch();
+  const browser = await chromium.launch();
   const context = await browser.newContext();
   const page = await context.newPage();
 
@@ -15,8 +15,8 @@ async function globalSetup() {
     await page.goto('https://www.hcc-tams.com.ph/tams/Auth', { timeout: 60000 });
 
     console.log("Filling in credentials...");
-    await page.type('input[name="username"]', process.env.COMP_ID || '15913');
-    await page.type('input[name="password"]', process.env.PASSWORD || '546609529');
+    await page.type('input[name="username"]', '15913');
+    await page.type('input[name="password"]', '546609529');
     await page.click('button[type="submit"]');
 
     console.log("Waiting for profile page to load...");
