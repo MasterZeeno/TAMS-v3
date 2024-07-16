@@ -39,7 +39,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Install Playwright Browsers
-        run: pnpm exec npx playwright install --with-deps
+        run: pnpm exec npx playwright install --with-deps firefox
       
       - name: Run Playwright tests
         env:
