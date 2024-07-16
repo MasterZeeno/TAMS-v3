@@ -1,5 +1,5 @@
 "use strict";
-const { firefox, expect, test } = require("@playwright/test");
+const { chromium, expect, test } = require("@playwright/test");
 const dotenv = require("dotenv");
 const fs = require("fs");
 
