@@ -10,25 +10,36 @@ async function globalSetup() {
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  await page.goto('https://www.hcc-tams.com.ph/tams/Auth/', { timeout: 60000 });
-  await page.fill('input[placeholder="Username"]', process.env.COMP_ID || "");
-  await page.fill('input[placeholder="Password"]', process.env.PASSWORD || "");
-  await page.click('button:has-text("Sign in")');
+  try {
+    console.log("Navigating to login page...");
+    await page.goto('https://www.hcc-tams.com.ph/tams/Auth/', { timeout: 60000 });
 
-  await expect(page).toHaveTitle(/profile/i);
+    console.log("Filling in credentials...");
+    await page.fill('input[placeholder="Username"]', process.env.COMP_ID || "");
+    await page.fill('input[placeholder="Password"]', process.env.PASSWORD || "");
+    await page.click('button:has-text("Sign in")');
 
-  const folderPath = "./.auth";
-  const filePath = "/admin.json";
-  const fullPath = folderPath + filePath;
+    console.log("Waiting for profile page to load...");
+    await expect(page).toHaveTitle(/profile/i);
 
-  fs.mkdirSync(folderPath, { recursive: true });
-  if (!fs.existsSync(fullPath)) {
-    fs.writeFileSync(fullPath, "");
+    console.log("Saving authentication state...");
+    const folderPath = "./.auth";
+    const filePath = "/admin.json";
+    const fullPath = folderPath + filePath;
+
+    fs.mkdirSync(folderPath, { recursive: true });
+    if (!fs.existsSync(fullPath)) {
+      fs.writeFileSync(fullPath, "");
+    }
+
+    await page.context().storageState({ path: fullPath });
+    console.log("Authentication state saved successfully.");
+  } catch (error) {
+    console.error('Error during global setup:', error);
+    throw error;
+  } finally {
+    await browser.close();
   }
-
-  await page.context().storageState({ path: fullPath });
-
-  await browser.close();
 }
 
 module.exports = globalSetup;
