@@ -17,7 +17,7 @@ async function globalSetup() {
     console.log("Filling in credentials...");
     await page.type('input[name="username"]', process.env.COMP_ID || '15913');
     await page.type('input[name="password"]', process.env.PASSWORD || '546609529');
-    await page.click('button:has-text("Sign in")');
+    await page.click('button[type="submit"]');
 
     console.log("Waiting for profile page to load...");
     await expect(page).toHaveTitle(/profile/i);
