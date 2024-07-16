@@ -36,16 +36,16 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    // {
-    //   name: 'chromium',
-    //   use: {
-    //     ...devices['Desktop Chrome']
-    //   },
-    // },
     {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
+       name: 'chromium',
+       use: {
+         ...devices['Desktop Chrome']
+       },
     },
+    // {
+      // name: "firefox",
+      // use: { ...devices["Desktop Firefox"] },
+    // },
 
     // {
     //   name: 'webkit',
@@ -53,13 +53,13 @@ export default defineConfig({
     // },
 
     /* Test against mobile viewports. */
-    {
-      name: 'Mobile Chrome',
-      use: Object.assign({}, devices['Pixel 5'], {
-        browserName: 'chromium', // Ensure it's Chromium-based browser
-        headless: true, // or false depending on your preference
-      }),
-    },
+    // {
+      // name: 'Mobile Chrome',
+      // use: Object.assign({}, devices['Pixel 5'], {
+        // browserName: 'chromium', // Ensure it's Chromium-based browser
+        // headless: true, // or false depending on your preference
+      //;}),
+    // },
     // {
     //   name: 'Mobile Safari',
     //   use: { ...devices['iPhone 12'] },
