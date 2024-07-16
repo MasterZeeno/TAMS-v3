@@ -1,28 +1,40 @@
-name: Run Playwright tests
+name: Node.js CI
 
 on:
   push:
     branches:
       - main
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  check:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node_version: ['18', '20']
+
+    runs-on: ${{ matrix.os }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install Node.js
-        uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          node-version: '16'
+            fetch-depth: 50
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node_version }}
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Install browsers for Playwright
-        run: npx playwright install
-
-      - name: Run Playwright tests
-        run: npx playwright test --project="firefox"
+      - name: Run Playwright
+        run: pnpm exec playwright test
