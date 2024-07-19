@@ -1,5 +1,5 @@
 "use strict";
-const { chromium, expect, test } = require("@playwright/test");
+const { expect, test } = require("@playwright/test");
 const dotenv = require("dotenv");
 const fs = require("fs");
 
@@ -49,18 +49,7 @@ test("collectData", async ({ page }) => {
   const outputArray = JSON.stringify(row_data, null, 2);
   const outputFile = "./test-results/output.json";
   fs.writeFileSync(outputFile, outputArray);
-  await page.waitForTimeout(3000);
-});
+  await page.waitForTimeout(6000);
 
-// Global teardown
-test.afterEach(async ({ page }) => {
-  // Close the browser after each test
   await page.context().close();
-});
-
-// Global setup
-test.beforeEach(async ({ browser }) => {
-  // Create a new browser context before each test
-  const context = await browser.newContext();
-  const page = await context.newPage();
 });

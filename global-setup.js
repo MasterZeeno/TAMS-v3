@@ -11,10 +11,7 @@ async function globalSetup() {
   const page = await context.newPage();
 
   try {
-    console.log("Navigating to login page...");
     await page.goto('https://www.hcc-tams.com.ph/tams/Auth', { timeout: 60000 });
-
-    console.log("Filling in credentials...");
     await page.type('input[name="username"]', '15913');
     await page.type('input[name="password"]', '546609529');
     await page.click('button[type="submit"]');

@@ -4,6 +4,8 @@ import { config } from "dotenv";
 import { existsSync } from "fs";
 config();
 
+const AUTH_FILE = process.env.env.AUTH_FILE;
+
 export default defineConfig({
   globalSetup: "./global-setup",
   testDir: "./tests",
@@ -29,8 +31,8 @@ export default defineConfig({
     headless: true,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
-    storageState: existsSync("./.auth/admin.json")
-      ? "./.auth/admin.json"
+    storageState: existsSync(AUTH_FILE)
+      ? AUTH_FILE
       : undefined,
   },
 
