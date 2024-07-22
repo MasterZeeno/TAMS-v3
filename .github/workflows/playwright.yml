@@ -45,7 +45,6 @@ jobs:
         env:
           USER: ${{ secrets.USER }}
           PASS: ${{ secrets.PASS }}
-          AUTH_FILE: ${{ secrets.AUTH_FILE }}
         run: pnpm exec npx playwright test --project=chromium
         
       - name: Upload Playwright report
