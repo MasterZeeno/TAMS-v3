@@ -2,7 +2,7 @@
   "name": "tams-v3",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "npm@10.8.2",
+  "packageManager": "pnpm@10.8.2",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,10 +11,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "devDependencies": {
     "@playwright/test": "^1.38.1",
     "@types/node": "^20.8.7",
     "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "pnpm": "^9.6.0"
   }
 }
