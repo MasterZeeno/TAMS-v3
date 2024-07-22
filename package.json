@@ -2,7 +2,7 @@
   "name": "tams-v3",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@10.8.2",
+  "packageManager": "pnpm@9.5.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
