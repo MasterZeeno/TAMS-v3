@@ -4,10 +4,10 @@ import { config } from "dotenv";
 import { existsSync } from "fs";
 config();
 
-const AUTH_FILE = process.env.env.AUTH_FILE;
+// const AUTH_FILE = process.env.env.AUTH_FILE;
 
 export default defineConfig({
-  globalSetup: "./global-setup",
+  // globalSetup: "./global-setup",
   testDir: "./tests",
   globalTimeout: process.env.CI ? 60 * 60 * 1000 : undefined,
   expect: {
@@ -31,22 +31,34 @@ export default defineConfig({
     headless: true,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
-    storageState: existsSync(AUTH_FILE)
-      ? AUTH_FILE
-      : undefined,
+    storageState: existsSync('./.auth/admin.json') ? './.auth/admin.json' : undefined,
+    // Context geolocation.
+    geolocation: { longitude: 121.0331402, latitude: 14.5203432 },
+    // Emulates the user locale.
+    locale: "en-PH",
+    // Grants specified permissions to the browser context.
+    permissions: ["geolocation"],
+    // Emulates the user timezone.
+    timezoneId: "Asia/Manila",
+    // Whether to ignore HTTPS errors during navigation.
+    ignoreHTTPSErrors: true,
+    // Whether to emulate network being offline.
+    offline: false,
+    // Toggles bypassing Content-Security-Policy.
+    bypassCSP: true,
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
-       name: 'chromium',
-       use: {
-         ...devices['Desktop Chrome']
-       },
+      name: "chromium",
+      use: {
+        ...devices["Desktop Chrome"],
+      },
     },
     // {
-      // name: "firefox",
-      // use: { ...devices["Desktop Firefox"] },
+    // name: "firefox",
+    // use: { ...devices["Desktop Firefox"] },
     // },
 
     // {
@@ -56,11 +68,11 @@ export default defineConfig({
 
     /* Test against mobile viewports. */
     // {
-      // name: 'Mobile Chrome',
-      // use: Object.assign({}, devices['Pixel 5'], {
-        // browserName: 'chromium', // Ensure it's Chromium-based browser
-        // headless: true, // or false depending on your preference
-      //;}),
+    // name: 'Mobile Chrome',
+    // use: Object.assign({}, devices['Pixel 5'], {
+    // browserName: 'chromium', // Ensure it's Chromium-based browser
+    // headless: true, // or false depending on your preference
+    //;}),
     // },
     // {
     //   name: 'Mobile Safari',

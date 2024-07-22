@@ -2,10 +2,11 @@
   "name": "tams-v3",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@9.1.2",
+  "packageManager": "npm@10.8.2",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npx playwright test --project='firefox'"
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",

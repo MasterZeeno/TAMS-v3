@@ -1,7 +1,8 @@
 "use strict";
-const { chromium, expect } = require("@playwright/test");
-const fs = require("fs");
-const dotenv = require("dotenv");
+
+import { chromium, expect } from "@playwright/test";
+import fs from "fs";
+import dotenv from "dotenv";
 
 dotenv.config();
 
@@ -11,15 +12,15 @@ async function globalSetup() {
   const page = await context.newPage();
 
   try {
-    await page.goto('https://www.hcc-tams.com.ph/tams/Auth', { timeout: 60000 });
-    await page.type('input[name="username"]', '15913');
-    await page.type('input[name="password"]', '546609529');
+    await page.goto("https://www.hcc-tams.com.ph/tams/Auth", {
+      timeout: 60000,
+    });
+    await page.locator('input[name="username"]').fill(process.env.USER);
+    await page.locator('input[name="password"]').fill(process.env.PASS);
     await page.click('button[type="submit"]');
 
-    console.log("Waiting for profile page to load...");
     await expect(page).toHaveTitle(/profile/i);
 
-    console.log("Saving authentication state...");
     const folderPath = "./.auth";
     const filePath = "/admin.json";
     const fullPath = folderPath + filePath;
@@ -30,9 +31,7 @@ async function globalSetup() {
     }
 
     await page.context().storageState({ path: fullPath });
-    console.log("Authentication state saved successfully.");
   } catch (error) {
-    console.error('Error during global setup:', error);
     throw error;
   } finally {
     await browser.close();
