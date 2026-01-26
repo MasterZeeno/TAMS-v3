@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       pnpm:
-        specifier: ^9.6.0
-        version: 9.6.0
+        specifier: ^10.28.2
+        version: 10.28.2
     devDependencies:
       '@playwright/test':
         specifier: ^1.38.1
@@ -27,6 +27,7 @@ packages:
   '@playwright/test@1.39.0':
     resolution: {integrity: sha512-3u1iFqgzl7zr004bGPYiN/5EZpRUSFddQBra8Rqll5N0/vfpqlP9I9EXqAoGacuAbX6c9Ulg/Cjqglp5VkK6UQ==}
     engines: {node: '>=16'}
+    deprecated: Please update to the latest version of Playwright to test up-to-date browsers.
     hasBin: true
 
   '@types/node@20.8.7':
@@ -51,8 +52,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  pnpm@9.6.0:
-    resolution: {integrity: sha512-ONxvuo26NbOTQLlwARLC/h4S8QsXE0cVpKqYzPe7A152/Zgc8Ls4TfqY+NavVIHCvvL0Jmokv6IMNOtxR84LXg==}
+  pnpm@10.28.2:
+    resolution: {integrity: sha512-QYcvA3rSL3NI47Heu69+hnz9RI8nJtnPdMCPGVB8MdLI56EVJbmD/rwt9kC1Q43uYCPrsfhO1DzC1lTSvDJiZA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -82,6 +83,6 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  pnpm@9.6.0: {}
+  pnpm@10.28.2: {}
 
   undici-types@5.25.3: {}
